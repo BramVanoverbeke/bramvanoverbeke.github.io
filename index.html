@@ -1,1 +1,243 @@
-<h1>You'd think this work</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bram Vanoverbeke</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="300">
+    <div class="navigation">
+      <nav class="navbar sticky-top navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand nav-link active" href="#Who"
+              >Bram Vanoverbeke</a
+            >
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul id="navbarRight" class="nav navbar-nav navbar-right">
+              <li><a class="nav-link" href="#Works">My works</a></li>
+              <li><a class="nav-link" href="#Contact">Contact me</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main_text">
+      <div class="aboutme">
+        <article>
+          <a id="Who"></a>
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="titleJumb">Who am i?</h1>
+              <p class="lead">
+                My name is Bram Vanoverbeke and I am a 20 year old Belgian
+                student currently in my final year of Applied Informatics at
+                HoGent. Other than regularly going for a run or a swim, I tend
+                to spend hours behind the computer either programming or gaming
+                as a sidejob.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="Some_more_details">
+        <article>
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="titleJumb">About me</h1>
+              <p class="lead">
+                I am a very competive guy, which you can see through my work
+                ethics or my desire to be the best at things I enjoy. As I've
+                already said, I do gaming as a sidejob and that's actually what
+                got me into the technical side of things. I wanted to learn how
+                to create those things and I started learning. So far I have
+                quite a bit of knowledge about java without frameworks. I also
+                know my way around HTML5/CSS3 and JavaScript. Other than that I
+                also know a bit of Angular and C# with .NET Core and the
+                Identity Framework. If you want a more specific set of skills,
+                you can download my CV by clicking
+                <a
+                  href="downloadable/BramVanoverbekeCV.pdf"
+                  download="BramVanoverbekeCV"
+                  >Here</a
+                >
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="myworks">
+        <article>
+          <a id="Works"></a>
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="titleJumb">My works</h1>
+              <div container my-3 py-5 text-center>
+                <div class="works">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h3>My portfolio</h3>
+                        <p>
+                          Click the github image for the source code or the live
+                          button to see it in your browser.
+                        </p>
+                        <div class="d-flex flex-row justify-content-center">
+                          <div class="p-4">
+                            <a
+                              href="https://github.com/BramVanoverbeke/Portfolio"
+                            >
+                              <i class="fa fa-github fa-3x"></i>
+                            </a>
+                          </div>
+                          <div class="p-4">
+                            <a href="#">
+                              <button class="btn btn-dark">Live</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h3>My Angular project (Work in Progress)</h3>
+                        <p>
+                          Click the github image for the source code as the
+                          website currently isn't live
+                        </p>
+                        <div class="d-flex flex-row justify-content-center">
+                          <div class="p-4">
+                            <a
+                              href="https://github.com/BramVanoverbeke/Portfolio"
+                            >
+                              <i class="fa fa-github fa-3x"></i>
+                            </a>
+                          </div>
+                          <div class="p-4">
+                            <a href="#">
+                              <button class="btn btn-dark">Live</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="contactMe">
+      <article>
+        <a id="Contact"></a>
+        <div class="container">
+          <form action="MAILTO:bram.vanoverbeke@outlook.com" method="POST">
+            <h2 style="text-align: center;">Contact me via email</h2>
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                name="name"
+                type="name"
+                class="form-control"
+                id="name"
+                placeholder="Enter name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                class="form-control"
+                id="message"
+                rows="5"
+                placeholder="Enter message"
+                required
+              ></textarea>
+            </div>
+
+            <button
+              style="margin-bottom: 10px"
+              type="submit"
+              class="btn btn-primary float-right"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </article>
+    </div>
+
+    <footer class="page-footer font-small unique-color-dark">
+      <div class="primary-color">
+        <div class="container-fluid">
+          <div class="row py-4 d-flex align-items-center">
+            <div
+              class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0"
+            >
+              <h6 class="mb-0 white-text">
+                Portfolio by Bram Vanoverbeke &copy; 2019
+              </h6>
+            </div>
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+              <div class="links">
+                <!--Facebook-->
+                <a
+                  href="https://www.facebook.com/bram.vanoverbeke.9"
+                  class="li-ic"
+                >
+                  <i class="fa fa-facebook white-text mr-4"> </i>
+                </a>
+                <!--Linkedin-->
+                <a
+                  href="https://www.linkedin.com/in/bram-vanoverbeke-8a828b183/"
+                  class="li-ic"
+                >
+                  <i class="fa fa-linkedin white-text mr-4"> </i>
+                </a>
+                <!--Github-->
+                <a href="https://github.com/BramVanoverbeke" class="ins-ic">
+                  <i class="fa fa-github white-text mr-lg-4"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  background-image: url(../images/aaron-lee-_pFvcEs_BPI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.links a {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.main_text {
+  padding: 50px 0px 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main_text article {
+  margin-top: 7%;
+  padding: 10% 0 10% 0;
+}
+
+.works {
+  text-align: center;
+}
+
+.works .card {
+  border-radius: 0;
+  -webkit-box-shadow: 5px 5px 15px black;
+          box-shadow: 5px 5px 15px black;
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.contactMe {
+  margin-bottom: 10%;
+  background: white;
+  text-align: center;
+}
+
+.titleJumb {
+  font-size: 10em;
+}
+/*# sourceMappingURL=styles.css.map */
